@@ -10,7 +10,7 @@ env:
   APP_NAME: image-app
   APP_IMAGE_NAME: image-app
   APP_IMAGE_TAG: latest
-  REPOSITORY_URL: "https://github.com/bobbybabu007/gha-python-image-app.git"
+  REPOSITORY_URL: "https://github.com/mohitkumar1313/gha-python-image-app.git"
   REPOSITORY_NAME: "gha-python-image-app"
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
