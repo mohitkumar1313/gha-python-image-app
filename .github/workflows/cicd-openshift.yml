@@ -1,9 +1,9 @@
 name: CI/CD for PROD Environment
 
 on:
-  pull_request:
+  push:
     branches:
-    - main
+    - demo
 
 env:
   ENV: "prod"
@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build-release]
     environment:
-      name: prod
+      name: dev-openshift
     steps:
     - uses: actions/checkout@v2
 
